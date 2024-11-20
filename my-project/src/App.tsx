@@ -1,7 +1,7 @@
 import { WalletSelector } from "@aptos-labs/wallet-adapter-ant-design";
 import "@aptos-labs/wallet-adapter-ant-design/dist/index.css";
 import { InputTransactionData, useWallet } from "@aptos-labs/wallet-adapter-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Aptos, AptosConfig, Network } from "@aptos-labs/ts-sdk";
 
 const moduleAddress = "0x496fa09cb3f485f75ba07edbb668b619a994bbc3033d5e5799b43790457e10eb"; // Your Move module address
